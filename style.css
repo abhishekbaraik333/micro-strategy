@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", serif;
+}
+
+
+body{
+    background:linear-gradient(180deg, #FFFFFF 0%, #ECF0F9 100%);
+}
+
+.hero{
+    background:  url(./assets/background.png) center no-repeat;
+    background-position: top;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background: #FF0039;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator {
+    background-color: #fff;
+    padding: 36px;
+    border-radius: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #FF0039;
+    border-radius: 4px;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  .operation {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #result{
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  #result2{
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+  #textToCopy2,#textToCopy{
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
