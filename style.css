@@ -5,6 +5,12 @@
     font-family: "Mulish", serif;
 }
 
+html,body{
+
+    scroll-behavior: smooth;
+
+}
+
 
 body{
     background:linear-gradient(180deg, #FFFFFF 0%, #ECF0F9 100%);
@@ -69,4 +75,19 @@ body{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+  }
+
+  .last-part{
+    background:  url(./assets/bg-2.png) center no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+  }
+
+  @media (max-width: 768px){
+    .last-part{
+        height: fit-content;
+    }
+    
   }
