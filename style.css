@@ -77,6 +77,8 @@ body{
     text-overflow: ellipsis;
   }
 
+  
+
   .last-part{
     background:  url(./assets/bg-2.png) center no-repeat;
     background-position: bottom;
@@ -89,5 +91,9 @@ body{
     .last-part{
         height: fit-content;
     }
+    #slideshow{
+        aspect-ratio:  16/9;
+        min-width: 1000px;
+      }
     
   }
